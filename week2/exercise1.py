@@ -15,7 +15,7 @@ some_words = ['what', 'does', 'this', 'line', 'do', '?']  # It printed 'what doe
 # I think this line will print 'what does this line do? word'
 for word in some_words:
     print(word)
-
+# I think this line will print 'what does this line do? x'
 for x in some_words:
     print(x)
 
