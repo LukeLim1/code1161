@@ -1,1 +1,2 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+I learned about debugging, and how to print 'Hello World'.
+I'm still having difficulties with Anaconda though.

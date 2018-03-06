@@ -10,9 +10,9 @@ import platform
 
 # I think this will print "hello! Let's get started" by calling the print function.
 print("hello! Let's get started")  # it printed "hello! Let's get started"
-
-some_words = ['what', 'does', 'this', 'line', 'do', '?']
-
+# I think this line will print 'what does this line do?' when I execute it.
+some_words = ['what', 'does', 'this', 'line', 'do', '?']  # It printed 'what does this line do?', but each word in a separate line.
+# I think this line will print 'what does this line do? word'
 for word in some_words:
     print(word)
 
