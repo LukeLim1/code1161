@@ -18,9 +18,9 @@ for x in some_words:
     print(x)
 # I think this will print 'what does this line do?' in each line
 print(some_words)
-
+# It would print 'some_words contains more than 3 words' since len(some_words) > 3
 if len(some_words) > 3:
-    print('some_words contains more than 3 words')
+    print('some_words contains more than 3 words') # It printed 'some_words contains more than 3 words'
 
 def usefulFunction():
     """
