@@ -12,13 +12,11 @@ import platform
 print("hello! Let's get started")  # it printed "hello! Let's get started"
 # I think this line will print 'what does this line do?' when I execute it.
 some_words = ['what', 'does', 'this', 'line', 'do', '?']  # It printed 'what does this line do?', but each word in a separate line.
-# I think this line will print 'what does this line do? word'
 for word in some_words:
     print(word)
-# I think this line will print 'what does this line do? x'
 for x in some_words:
     print(x)
-
+# I think this will print 'what does this line do?' in each line
 print(some_words)
 
 if len(some_words) > 3:
