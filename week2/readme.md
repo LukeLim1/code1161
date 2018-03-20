@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+This week I learned how to change mugshot, so I changed it to the picture of a cute cat. Other than that the most remarkable thing I learned today is 'modulo division'. I still have bunch of issues in exercise 3.
