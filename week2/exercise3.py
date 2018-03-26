@@ -45,7 +45,10 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return ['*'] * 10
+    outer_list = []
+    for i in range(10):
+        outer_list.append('*')
+    return outer_list
 
 
 
@@ -57,8 +60,10 @@ def loops_1c(number_of_items=5, symbol="#"):
     a string with exacly one symbol in it.
     E.g.: ['#', '#', '#', '#', '#']
     """
-    
-
+    outer_list = []
+    for i in range(number_of_items):
+        outer_list.append(symbol)
+    return outer_list
 
 def loops_2():
     """Make a big square starfield.
@@ -78,7 +83,13 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    pass
+    outer_list = []
+    for i in range(10):
+        inner_list = []
+        for j in range(10):
+            inner_list.append('*')
+            outer_list.append(inner_list)
+        return outer_list
 
 
 def loops_3():
@@ -102,7 +113,13 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    pass
+    outer_list = []
+    for i in range(10):
+        inner_list = []
+        for j in range(10):
+            inner_list.append(i)
+        outer_list.append(inner_list)
+    return outer_list
 
 
 def loops_4():
@@ -122,8 +139,13 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    pass
-
+    outer_list = []
+    for i in range(10):
+        inner_list = []
+        for j in range(10):
+            inner_list.append(j)
+        outer_list.append(inner_list)
+    return outer_list
 
 def loops_5():
     """Make the coordinates of the block.
@@ -147,9 +169,13 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
-    pass
-
-
+    outer_list = []
+    for i in range(10):
+        inner_list = []
+        for j in range(5):
+            inner_list.append("(i{}, j{})".format(i,j))
+            outer_list.append(inner_list)
+    return outer_list
 def loops_6():
     """Make a wedge of numbers.
 
@@ -195,6 +221,7 @@ def loops_7():
     lots of diagrams!
     """
     pass
+
 
 
 def lp(some_kind_of_list, exercise_name):
