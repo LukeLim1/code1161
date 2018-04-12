@@ -28,7 +28,8 @@ def success_is_relative():
     # this depends on excecution context. Take a look at your CWD and remember
     # that it changes.
     # print(path, CWD)
-    pass
+    print([len(w) for w in wordy_pyramid()])
+    return wordy_pyramid
 
 
 def get_some_details():
@@ -50,6 +51,10 @@ def get_some_details():
     json_data = open(LOCAL + "/lazyduck.json").read()
 
     data = json.loads(json_data)
+    path = data["results"][0]
+    postcode = path["location"]["postcode"]
+    ID = path["id"]["value"]
+    
     return {"lastName":       None,
             "password":       None,
             "postcodePlusID": None

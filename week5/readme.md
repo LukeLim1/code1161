@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+I've noticed that there are few examples in week 5 ex 1, but even if I look at them I still can't figure out which function does what. If I understand that properly (which would be difficult for me but still) that I would be able to do the hw as well.

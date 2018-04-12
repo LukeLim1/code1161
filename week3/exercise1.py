@@ -64,7 +64,7 @@ def stubborn_asker(low, high):
     message = "Give me a number between {low} and {high}: ".format(low=low, high=high)
 
     while True:
-        input_number = int(raw_input(message))
+        input_number = int(input(message))
         if low < input_number < high:
             print("I will go with {}." .format(input_number))
             return input_number

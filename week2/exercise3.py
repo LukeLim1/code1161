@@ -174,7 +174,7 @@ def loops_5():
         inner_list = []
         for j in range(5):
             inner_list.append("(i{}, j{})".format(i,j))
-            outer_list.append(inner_list)
+        outer_list.append(inner_list)
     return outer_list
 def loops_6():
     """Make a wedge of numbers.
@@ -196,7 +196,13 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    pass
+    outer_list = []
+    for i in range(10):
+        inner_list = []
+        for j in range(i+1):
+            inner_list.append(j)
+        outer_list.append(inner_list)
+    return outer_list
 
 
 def loops_7():
@@ -220,7 +226,19 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    pass
+    outer_list = []
+    for i in range(5):
+        inner_list = []
+        for j in range(9):
+            if j == 4:
+                inner_list.append('*')
+            elif j >= abs(4-i) and j <= abs(4+i):
+                inner_list.append('*')
+            else:
+                inner_list.append(' ')
+        outer_list.append(inner_list)
+    print(outer_list)
+    return outer_list
 
 
 
