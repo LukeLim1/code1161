@@ -18,8 +18,7 @@ def greet(name="Towering Timmy"):
     return a string of "Hello" and the name argument.
     E.g. if given as "Towering Timmy" it should return "Hello Towering Timmy"
     """
-    pass
-
+    return ("Hello "+ name)
 
 def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     """Count the number of 3s in the input_list.
@@ -27,7 +26,11 @@ def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     Return an integer.
     TIP: the test will use a different input_list, so don't just return 5
     """
-    pass
+    outer_list = []
+    for i in range(len(input_list)):
+        outer_list = input_list.count(3)
+    return outer_list
+
 
 
 def fizz_buzz():
@@ -46,8 +49,16 @@ def fizz_buzz():
     """
     fizzBuzzList = []
     # your code here
+    for i in range(1, 101):
+        if i % 15 == 0:
+            print("FizzBuzz")
+        elif i % 3 == 0:
+            print("Fizz")
+        elif i % 5 == 0:
+            print("Buzz")
+        else:
+            print(i)
     return fizzBuzzList
-
 
 def put_behind_bars(input_string="very naughty boy"):
     """Interleave the input_string with pipes.
@@ -56,7 +67,10 @@ def put_behind_bars(input_string="very naughty boy"):
     e.g. "very naughty boy" should return "|v|e|r|y| |n|a|u|g|h|t|y| |b|o|y|"
     TIP: make sure that you have a pipe on both ends of the string.
     """
-    pass
+    input_list = ""
+    for i in input_string:
+        input_list += i + '|'
+    return '|' + input_list
 
 
 def pet_filter(letter="a"):
@@ -69,7 +83,12 @@ def pet_filter(letter="a"):
             "bali cattle", "gayal", "turkey", "goldfish", "rabbit", "koi",
             "canary", "society finch", "fancy mouse", "siamese fighting fish",
             "fancy rat and lab rat", "mink", "red fox", "hedgehog", "guppy"]
-    pass
+    
+    for letter in pets:
+        print(pets(letter))
+    return pets
+
+    
 
 
 def best_letter_for_pets():
@@ -80,7 +99,11 @@ def best_letter_for_pets():
     """
     import string
     the_alphabet = string.lowercase
-    pass
+    
+    pet_filter_len = len(pet_filter)
+    print(len(pet_filter))
+    return len(pet_filter)
+
 
 
 def make_filler_text_dictionary():
