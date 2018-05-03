@@ -138,3 +138,93 @@ Instructions for week3:
 - homework exercises in week3 folder
 
 
+### Week 4: Dictionaries and File I/O
+
+#### Introduction
+
+This week in the lecture we will build on our hangman game by saving the highest scores and introducing a leader board.
+
+#### Lecture
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8BkNrDW08ySOr44rQSxrAeht7Avm6PXHclCuAdzUtLn1SMNO8oywMFJI4dKIN3k_rPKbXy0keXUVc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+#### Lab
+Instructions:
+
+- *pull from upstream/master*
+
+#### Homework
+- ensure you have completed all labs from week 1, 2, 3
+- run through the hangman.py and understand what each line does.
+
+
+### Week 5: More File I/O and the Internet
+
+#### Introduction
+
+This week we will extend on our hangman game by getting the word to guess from the internet.
+
+#### Lecture
+- go over saving and reading from file again
+- what is JSON?
+- reading stuff from the internet with programs
+- recursion
+- [add video link if we successfully manage to record it]
+#### Lab
+Instructions:
+
+- *pull from upstream/master*
+- run week4/setup.py
+- complete week 4 file I/O exercises
+	- run through the `hangman_leaderboard_word_from_internet.py` for some hints.
+- complete week 5 refactoring and recursion exercises
+	- You may need to look at other examples of recursion to develop a fuller understanding of how it works.
+
+#### Homework Due 10/04/2018 @ 12pm
+- ensure you have completed all labs from weeks 4 and 5
+- lab books for both weeks
+- Prepare for the programming exam on 17/04/2018 at 3pm.
+
+### Week 6: Non-teaching week
+
+### Week 7: Also non-teaching week
+
+### Week 8: Exam
+In the lectures we will revise what so far in preparation for the exam in the labs. After the exam we will start looking at the software project due in
+#### Lab (exam)
+Instructions:
+- Promptly fire up your laptops
+- At ~15:15, the exam will be pushed
+- You will have 90 minutes to complete the exam, commit it and push it to your repository.
+
+### Week 9: Machine Learning
+#### Lecture
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLNFC0gxS4xh2wztQmuwmPQkNmrNe4YLlYeoPOyGaTPc1sZIFL7PxSuJadvM4Cn1RyLRsEf2EgFNbV/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+#### Lab
+Machine learning assignment to be demonstrated on 1 May 2018 in the labs.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTErz4xhwXpQFJ9808NHSZZKrc3Rf_g_P8yXMdMkOSmzfUHeZdFGU5hzlcQ4e_F5tADRRn5ClyAldY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+### Week 10: OpenData Introduction
+#### Lecture
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTXNkJCGDstDeRNc_jbHt7Y-TO1-Fj_oB1taSWwtrksUfr1RhRYwK5RmrcueLtly4EFFjoZSc9s0faB/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+#### Lab
+While we are marking the projects:
+- Create a kaggle account
+	- Fork this: https://www.kaggle.com/kanncaa1/data-sciencetutorial-for-beginners
+	- Run: 
+		- up to the start of 2. Python Data Science Toolbox
+		- 3.Cleaning Data
+		- 4.Pandas Foundation.
+		- 5.Manipulating Data Frames with Pandas.
+	- Absorb all the possibilities of these tools
+- Start looking for data and thinking about a question you want to answer
+- Get first hand experience using pandas and visualisation skills.
+https://www.kaggle.com/residentmario/welcome-to-data-visualization
+
+#### Homework
+- Pull from upstream to get the latest lab books
+- Complete the lab book in the week10 folder
+- Get acquainted with pandas and matplotlib
+- Research what questions you would like to answer and datasets.
+
