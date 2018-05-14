@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+I have chosen my dataset, now I have to learn how to plot points and gain datas that would help my presentation overall. More coding makes it complex though.
